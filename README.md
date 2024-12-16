@@ -18,11 +18,16 @@ To run the project just use: `dotnet run`
 The WebAPI will be available on the [localhost:5000](http://localhost:5000)
 
 There are two routes in the entire API that accepts the filtering options.
-[/api/weatheralert](http://localhost:5000/api/weatheralert) : For getting the search results.
-[/api/weatheralert/filters](http://localhost:5000/api/weatheralert/filters) : For getting the filter options.
+
+- [/api/weatheralert](http://localhost:5000/api/weatheralert) : For getting the search results.
+- [/api/weatheralert/filters](http://localhost:5000/api/weatheralert/filters) : For getting the filter options.
+
 The filter options are EventType, Severity, Certainty, RiskMatrixColor and GeographicDomain.
 
 To run the proejct just use: `dotnet run`
+
+> [!IMPORTANT]
+> This applications needs to be running in order for the frontend to work properly
 
 ## Frontend
 
